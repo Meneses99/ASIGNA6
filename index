@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción al Desarrollo Web - UTP</title>
+</head>
+<body>
+    <header id="inicio">
+        <h1>Universidad Tecnológica de Panamá</h1>
+        <h2>Introducción al Desarrollo Web</h2>
+
+        <p>
+            Bienvenidos a este espacio introductorio. Aquí conocerás qué es una página web,
+            cómo funciona en el navegador y cuáles son las diferencias entre los tipos de
+            páginas y las aplicaciones web.
+        </p>
+
+        <nav aria-label="Menú principal">
+            <h2>Explora el contenido</h2>
+            <ul>
+                <li><a href="#que-es">¿Qué es una página web?</a></li>
+                <li><a href="#estaticas">Páginas estáticas</a></li>
+                <li><a href="#dinamicas">Páginas dinámicas</a></li>
+                <li><a href="#sitio-aplicacion">Sitios y aplicaciones web</a></li>
+                <li><a href="#tabla-tipos">Tabla comparativa</a></li>
+                <li><a href="#glosario">Glosario</a></li>
+                <li><a href="#multimedia">Recursos multimedia</a></li>
+                <li><a href="#preguntas">Preguntas frecuentes</a></li>
+                <li><a href="#inscripcion">Formulario</a></li>
+            </ul>
+        </nav>
+        <hr>
+    </header>
+
+    <section id="imagen">
+        <h2>El mundo de la web</h2>
+        <p>La web conecta documentos, recursos y servicios que podemos consultar mediante un navegador.</p>
+        <figure>
+            <img
+                src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1000&q=80"
+                alt="Computadora portátil sobre un escritorio de trabajo"
+                width="600"
+                loading="lazy">
+            <figcaption>
+                Imagen ilustrativa alojada en Unsplash. Se requiere conexión a Internet para verla.
+            </figcaption>
+        </figure>
+    </section>
+
+    <main>
+        <article id="que-es">
+            <h2>1. ¿Qué es una página web?</h2>
+            <p>
+                Una página web es un documento digital que puede consultarse mediante un navegador.
+                Puede contener texto, imágenes, enlaces, tablas, formularios y recursos multimedia.
+                Normalmente está estructurada con HTML.
+            </p>
+
+            <h3>¿Cómo funciona una página web?</h3>
+            <p>
+                Cuando una persona escribe una dirección o selecciona un enlace, el navegador solicita
+                el recurso al servidor que lo aloja. El servidor responde con los archivos o datos
+                solicitados y el navegador interpreta el HTML para presentar el contenido.
+            </p>
+
+            <p>
+                <strong>Ejemplo:</strong> al visitar la página de una universidad, el navegador solicita
+                sus documentos y muestra información como carreras, noticias y datos de contacto.
+            </p>
+        </article>
+
+        <article id="estaticas">
+            <h2>2. Páginas web estáticas</h2>
+            <p>
+                Una página estática presenta contenido que permanece igual para quienes la visitan,
+                salvo que alguien modifique sus archivos. Es apropiada para información institucional,
+                portafolios sencillos y folletos digitales.
+            </p>
+            <h3>Ejemplo</h3>
+            <p>Una página que publica el horario de atención de una biblioteca y que solo cambia cuando el encargado edita el HTML.</p>
+        </article>
+
+        <article id="dinamicas">
+            <h2>3. Páginas web dinámicas</h2>
+            <p>
+                Una página dinámica puede presentar contenido diferente según los datos recibidos,
+                las acciones del usuario o la información almacenada en un sistema. Con frecuencia
+                utiliza programación del lado del servidor, bases de datos y tecnologías adicionales.
+            </p>
+            <h3>Ejemplo</h3>
+            <p>Un portal de notas que muestra las calificaciones correspondientes a la cuenta del estudiante que inició sesión.</p>
+        </article>
+
+        <article id="sitio-aplicacion">
+            <h2>4. Diferencia entre sitio web y aplicación web</h2>
+            <p>
+                Un sitio web suele organizar páginas informativas relacionadas, por ejemplo, las
+                secciones de una institución. Una aplicación web, además de mostrar información,
+                permite realizar tareas e interactuar con datos, como inscribirse en cursos,
+                administrar documentos o consultar resultados.
+            </p>
+            <p>
+                La diferencia no siempre es absoluta: un mismo sitio puede incluir funciones
+                que se comportan como una aplicación web.
+            </p>
+        </article>
+
+        <section id="tabla-tipos">
+            <h2>5. Tipos de páginas web: ejemplos</h2>
+            <table border="1">
+                <caption>Comparación de tipos de páginas web</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">Tipo de página web</th>
+                        <th scope="col">Descripción</th>
+                        <th scope="col">Ejemplo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Estática</td>
+                        <td>Presenta contenido que cambia cuando se editan sus archivos.</td>
+                        <td>Folleto digital de una biblioteca.</td>
+                    </tr>
+                    <tr>
+                        <td>Dinámica</td>
+                        <td>Genera o actualiza contenido a partir de datos o interacciones.</td>
+                        <td>Portal de calificaciones estudiantiles.</td>
+                    </tr>
+                    <tr>
+                        <td>Sitio web informativo</td>
+                        <td>Reúne varias páginas principalmente informativas.</td>
+                        <td>Sitio institucional de una universidad.</td>
+                    </tr>
+                    <tr>
+                        <td>Aplicación web</td>
+                        <td>Permite completar tareas e interactuar con datos.</td>
+                        <td>Sistema de matrícula en línea.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="glosario">
+            <h2>6. Glosario de desarrollo web</h2>
+            <p>Selecciona cada término para consultar su definición.</p>
+
+            <details>
+                <summary>HTML</summary>
+                <p>Lenguaje de marcado utilizado para estructurar los elementos y el contenido de una página web.</p>
+            </details>
+
+            <details>
+                <summary>CSS</summary>
+                <p>Lenguaje de hojas de estilo que permite definir colores, tipografías, espacios y distribución visual.</p>
+            </details>
+
+            <details>
+                <summary>JavaScript</summary>
+                <p>Lenguaje de programación que permite incorporar muchas interacciones y comportamientos dinámicos en el navegador.</p>
+            </details>
+
+            <details>
+                <summary>Servidor web</summary>
+                <p>Sistema que recibe solicitudes y entrega recursos o contenido a los clientes que los solicitan.</p>
+            </details>
+        </section>
+
+        <section id="multimedia">
+            <h2>7. Recursos multimedia</h2>
+
+            <article id="video">
+                <h3>Video complementario sobre desarrollo web</h3>
+                <p>Consulta este recurso para ampliar el tema.</p>
+                <figure>
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/ofo6VCZp5ls"
+                        title="Video sobre desarrollo web"
+                        loading="lazy"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                    </iframe>
+                    <figcaption>Recurso audiovisual complementario sobre desarrollo web.</figcaption>
+                </figure>
+                <p>
+                    <a href="https://www.youtube.com/watch?v=ofo6VCZp5ls"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Ver el video directamente en YouTube
+                    </a>
+                </p>
+            </article>
+
+            <article>
+                <h3>Audio de muestra</h3>
+                <p>Utiliza los controles para reproducir o pausar el audio.</p>
+                <audio controls preload="none">
+                    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+                    Tu navegador no puede reproducir este audio.
+                </audio>
+                <p><small>El audio se aloja en un servidor externo y requiere conexión a Internet.</small></p>
+            </article>
+        </section>
+
+        <section id="preguntas">
+            <h2>8. Preguntas frecuentes</h2>
+            <p>Selecciona una pregunta para mostrar la respuesta.</p>
+
+            <details>
+                <summary>¿Qué lenguaje se utiliza para crear páginas web?</summary>
+                <p>HTML estructura el contenido, CSS define su presentación y JavaScript permite añadir interacciones programables.</p>
+            </details>
+
+            <details>
+                <summary>¿Cuál es la diferencia entre una página estática y una dinámica?</summary>
+                <p>Una página estática presenta contenido definido en sus archivos. Una página dinámica puede adaptar el contenido según datos, acciones o información de un sistema.</p>
+            </details>
+
+            <details>
+                <summary>¿Qué es una aplicación web?</summary>
+                <p>Es un sistema accesible desde un navegador que permite realizar tareas e interactuar con información.</p>
+            </details>
+
+            <details>
+                <summary>¿Necesito Internet para abrir esta página?</summary>
+                <p>El archivo HTML guardado en tu computadora puede abrirse sin Internet, pero los recursos alojados en servidores externos pueden no mostrarse.</p>
+            </details>
+        </section>
+
+        <section id="enlaces">
+            <h2>9. Enlaces de interés</h2>
+            <ul>
+                <li><a href="#inicio">Volver al inicio de esta página.</a></li>
+                <li>
+                    <a href="https://developer.mozilla.org/es/docs/Learn_web_development"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Aprender desarrollo web en MDN.
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:profesor@utp.ac.pa?subject=Consulta%20sobre%20Introducci%C3%B3n%20al%20Desarrollo%20Web">
+                        Contactar al profesor por correo electrónico.
+                    </a>
+                    <small>(Sustituye la dirección por el correo real del profesor).</small>
+                </li>
+            </ul>
+        </section>
+
+        <section id="inscripcion">
+            <h2>10. Formulario de inscripción estudiantil</h2>
+            <p>
+                Completa los campos de ejemplo. Este formulario es demostrativo:
+                no almacena los datos en una base de datos ni cuenta con un servidor
+                para procesarlos.
+            </p>
+
+            <form action="mailto:profesor@utp.ac.pa" method="post" enctype="text/plain">
+                <fieldset>
+                    <legend>Datos personales</legend>
+
+                    <p>
+                        <label for="nombre">Nombre:</label><br>
+                        <input type="text" id="nombre" name="nombre" autocomplete="given-name" required>
+                    </p>
+
+                    <p>
+                        <label for="apellido">Apellido:</label><br>
+                        <input type="text" id="apellido" name="apellido" autocomplete="family-name" required>
+                    </p>
+
+                    <p>
+                        <label for="correo">Correo electrónico:</label><br>
+                        <input type="email" id="correo" name="correo" autocomplete="email" required>
+                    </p>
+
+                    <p>
+                        <label for="fecha">Fecha de nacimiento:</label><br>
+                        <input type="date" id="fecha" name="fecha_nacimiento" required>
+                    </p>
+
+                    <p>
+                        <label for="cedula">Cédula:</label><br>
+                        <input type="text" id="cedula" name="cedula"
+                               placeholder="Ejemplo: 8-000-0000"
+                               pattern="[0-9]+-[0-9]+-[0-9]+"
+                               title="Escribe la cédula en el formato 8-000-0000"
+                               required>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Información académica</legend>
+
+                    <p>
+                        <label for="modalidad">Modalidad de estudio:</label><br>
+                        <select id="modalidad" name="modalidad" required>
+                            <option value="">Selecciona una modalidad</option>
+                            <option value="Presencial">Presencial</option>
+                            <option value="Virtual">Virtual</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="carrera">Carrera universitaria:</label><br>
+                        <select id="carrera" name="carrera" required>
+                            <option value="">Selecciona una carrera</option>
+                            <option value="Desarrollo de Software">Desarrollo de Software</option>
+                            <option value="Redes Informáticas">Redes Informáticas</option>
+                            <option value="Ciberseguridad">Ciberseguridad</option>
+                            <option value="Otra">Otra carrera</option>
+                        </select>
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Intereses tecnológicos</legend>
+                    <input type="checkbox" id="interes-html" name="intereses" value="Diseño web">
+                    <label for="interes-html">Diseño web</label><br>
+
+                    <input type="checkbox" id="interes-bd" name="intereses" value="Bases de datos">
+                    <label for="interes-bd">Bases de datos</label><br>
+
+                    <input type="checkbox" id="interes-programacion" name="intereses" value="Programación">
+                    <label for="interes-programacion">Programación</label>
+                </fieldset>
+
+                <p>
+                    <label for="comentarios">Comentarios:</label><br>
+                    <textarea id="comentarios" name="comentarios" rows="5" cols="40"
+                              maxlength="500"
+                              placeholder="Escribe aquí tus consultas o comentarios."></textarea>
+                </p>
+
+                <p>
+                    <input type="checkbox" id="confirmacion" name="confirmacion" value="Aceptado" required>
+                    <label for="confirmacion">Confirmo que los datos son de ejemplo y deseo continuar.</label>
+                </p>
+
+                <p>
+                    <button type="submit">Enviar formulario</button>
+                    <button type="reset">Restablecer formulario</button>
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>Universidad Tecnológica de Panamá | Introducción al Desarrollo Web</p>
+        <p><a href="#inicio">Volver al inicio</a></p>
+        <p><small>Página educativa elaborada con HTML5.</small></p>
+    </footer>
+</body>
+</html>
